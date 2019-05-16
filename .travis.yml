@@ -1,0 +1,16 @@
+sudo: required
+
+language: generic
+
+dist:
+  xenial
+
+cache:
+  directories:
+    - $HOME/.m2
+
+services:
+  - docker
+
+script:
+  - echo 'Running changelog generator test'
