@@ -13,5 +13,5 @@ services:
   - docker
 
 script:
-  - pip install gitchangelog --user -U pip
+  - gem install github_changelog_generator
   - echo 'Running changelog generator test'
