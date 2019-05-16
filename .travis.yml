@@ -15,4 +15,4 @@ services:
 script:
   - gem install github_changelog_generator
   - github_changelog_generator -u yildiz-online -p test-changelog
-  - echo 'Running changelog generator test'
+  - cat /home/travis/build/yildiz-online/test-changelog/CHANGELOG.md
