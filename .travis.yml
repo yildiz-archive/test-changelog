@@ -8,13 +8,6 @@ git:
 dist:
   xenial
 
-cache:
-  directories:
-    - $HOME/.m2
-
-services:
-  - docker
-
 script:
   - gem install github_changelog_generator
   - github_changelog_generator -u yildiz-online -p test-changelog
