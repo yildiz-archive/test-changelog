@@ -2,6 +2,9 @@ sudo: required
 
 language: generic
 
+git:
+  depth: 10
+
 dist:
   xenial
 
